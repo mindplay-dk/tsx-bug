@@ -1,0 +1,13 @@
+{
+  "name": "hello_b",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsx hello.ts"
+  },
+  "devDependencies": {
+    "tsx": "^3.10.0"
+  },
+  "dependencies": {
+    "hello_a": "file:../hello_a-1.0.0.tgz"
+  }
+}
